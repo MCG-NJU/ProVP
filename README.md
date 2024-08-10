@@ -1,7 +1,8 @@
 # [IJCV2024] Progressive Visual Prompt Learning with Contrastive Feature Re-formation
 1. We propose a novel structure called Progressive Visual Prompt (ProVP). This design aims to strengthen the interaction among prompts from adjacent layers, thereby enabling more effective propagation to deeper layers.
 2. To address the generalization deterioration problem in training learnable prompts, we introduce a contrastive feature reformation technique. This combined method, ProVP-Ref, prevents significant deviations of prompted visual features from the fixed CLIP visual feature distribution.
-3.  ProVP-Ref is evaluated across 11 image datasets and achieves state-of-the-art results on 7/11 datasets in both few-shot learning and base-to-new generalization settings. To the best of our knowledge, this is the first study to showcase the exceptional performance of visual prompts in V-L models compared to previous text prompting methods in this area.
+3.  ProVP-Ref is evaluated across 11 image datasets and achieves state-of-the-art results on 7/11 datasets in both few-shot learning and base-to-new generalization settings.
+ %  To  the best of our knowledge, this is the first study to showcase the exceptional performance of visual prompts in V-L models compared to previous text prompting methods in this area.
 
 ![image](/model.jpg)
 
